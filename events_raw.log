@@ -1,0 +1,2776 @@
+--myboundary
+Content-Type: text/plain
+Content-Length:3488
+
+Code=TrafficJunction;action=Pulse;index=0;data={
+   "Action" : "Pulse",
+   "Class" : "",
+   "Code" : "TrafficJunction",
+   "CostTime" : {
+      "3_AddSnapInfoTime1" : 51393586627.0
+   },
+   "CountInGroup" : 1,
+   "Direction" : "Obverse",
+   "EventSeq" : 3,
+   "EventValid" : true,
+   "Extension" : {
+      "EventLongID" : "0220260921161655081839900000"
+   },
+   "FrameSequence" : 1284051,
+   "GroupID" : 1230352611,
+   "InYellowLine" : false,
+   "IndexInGroup" : 1,
+   "Lane" : 0,
+   "LightColor" : null,
+   "Mark" : 124,
+   "Name" : "LaneLine2",
+   "NotSend" : true,
+   "OSDFormat" : [ 4096, 2160 ],
+   "Object" : {
+      "Action" : "Appear",
+      "BoundingBox" : [ 0, 0, 0, 0 ],
+      "Center" : [ 0, 0 ],
+      "Confidence" : 0,
+      "FrameSequence" : 0,
+      "ObjectID" : 0,
+      "ObjectType" : "Unknown",
+      "RelativeID" : 0,
+      "ShotFrame" : false,
+      "Source" : 0.0,
+      "Speed" : 0,
+      "SpeedTypeInternal" : 0
+   },
+   "PTS" : 43000766280.0,
+   "Picture" : {
+      "CarID" : 2291,
+      "EncodeTimes" : 1,
+      "MergeSequence" : 15494,
+      "NormalSequence" : 15495,
+      "PicMergeType" : {
+         "MosaicSequence" : [ 1, 101 ],
+         "MosaicType" : 1
+      }
+   },
+   "RadarSpeedSetTime" : 0.0,
+   "RadarSpeedSourceTime" : 0.0,
+   "RedLightUTC" : null,
+   "RedLightUTCMS" : null,
+   "RuleId" : 3,
+   "Sequence" : 1,
+   "Source" : 35,
+   "Speed" : 5,
+   "SpeedTypeInternal" : 0,
+   "TrafficCar" : {
+      "CountInGroup" : 1,
+      "DeviceAddress" : null,
+      "Direction" : 0,
+      "DrivingDirection" : [ "Approach", "", "" ],
+      "Event" : "TrafficJunction",
+      "GroupID" : 1230352611,
+      "IndexInGroup" : 1,
+      "Lane" : 1,
+      "LaneDescription" : "1234",
+      "LowerSpeedLimit" : 10,
+      "MachineGroup" : null,
+      "MachineName" : "ITC952-RF2D-IR",
+      "OverSpeedMargin" : 0,
+      "PhysicalLane" : 0,
+      "RoadwayNo" : "",
+      "RouteNo" : "",
+      "Speed" : 5,
+      "UnderSpeedMargin" : 0,
+      "UpperSpeedLimit" : 70,
+      "VehicleColor" : "Black",
+      "VehicleSign" : "Unknown",
+      "VehicleSize" : "Light-duty",
+      "ViolationCode" : "",
+      "ViolationDesc" : ""
+   },
+   "UTC" : 1790007415,
+   "UTCMS" : 114,
+   "Vehicle" : {
+      "Action" : "Appear",
+      "BoundingBox" : [ 2568, 5024, 3768, 7888 ],
+      "BrandYear" : 0,
+      "CarLogoIndex" : 0,
+      "CarSeriesIndex" : 0,
+      "Category" : "SaloonCar",
+      "Center" : [ 3168, 6456 ],
+      "Confidence" : 252,
+      "DriverFace" : [
+         [ 0, 0, 0, 0 ],
+         [ 0, 0, 0, 0 ]
+      ],
+      "FrameSequence" : 1283922,
+      "MainColor" : [ 0, 0, 0, 0 ],
+      "MainSeat" : {
+         "DriverCalling" : "unknow",
+         "DriverSmoking" : "unknow",
+         "SafeBelt" : "unknow",
+         "SunShade" : "unknow"
+      },
+      "ObjectID" : 37643,
+      "ObjectType" : "Vehicle",
+      "Plate" : {
+         "BoundingBox" : [ 0, 0, 0, 0 ],
+         "FrameSequence" : 1283922,
+         "MainColor" : [ 0, 0, 0, 0 ],
+         "ObjectID" : 37643,
+         "ObjectType" : "Plate",
+         "PlateCentroid" : [ 0, 0 ],
+         "PlateType" : 0,
+         "Text" : ""
+      },
+      "RelativeID" : 0,
+      "ShotFrame" : true,
+      "SlaveSeat" : {
+         "DriverCalling" : "unknow",
+         "DriverSmoking" : "unknow",
+         "SafeBelt" : "unknow",
+         "SunShade" : "unknow"
+      },
+      "Source" : 0.0,
+      "Speed" : 5,
+      "SpeedTypeInternal" : 0,
+      "SubBrand" : 0,
+      "Text" : "Unknown"
+   },
+   "ViolationSnapSource" : 3
+}
+
+
+--myboundary
+Content-Type: text/plain
+Content-Length:3525
+
+Code=TrafficWithoutSafeBelt;action=Pulse;index=0;data={
+   "Action" : "Pulse",
+   "Class" : "",
+   "Code" : "TrafficWithoutSafeBelt",
+   "CostTime" : {
+      "3_AddSnapInfoTime1" : 51393586627.0
+   },
+   "CountInGroup" : 1,
+   "Direction" : "Obverse",
+   "EventSeq" : 3,
+   "EventValid" : true,
+   "Extension" : {
+      "EventLongID" : "0220260921161655081859900000"
+   },
+   "FrameSequence" : 1284051,
+   "GroupID" : 1230352611,
+   "InYellowLine" : false,
+   "IndexInGroup" : 1,
+   "Lane" : 0,
+   "LightColor" : null,
+   "Mark" : 124,
+   "Name" : "LaneLine2",
+   "NotSend" : true,
+   "OSDFormat" : [ 4096, 2160 ],
+   "Object" : {
+      "Action" : "Appear",
+      "BoundingBox" : [ 0, 0, 0, 0 ],
+      "Center" : [ 0, 0 ],
+      "Confidence" : 0,
+      "FrameSequence" : 0,
+      "ObjectID" : 0,
+      "ObjectType" : "Unknown",
+      "RelativeID" : 0,
+      "ShotFrame" : false,
+      "Source" : 0.0,
+      "Speed" : 0,
+      "SpeedTypeInternal" : 0
+   },
+   "PTS" : 43000766280.0,
+   "Picture" : {
+      "CarID" : 2291,
+      "EncodeTimes" : 1,
+      "MergeSequence" : 15498,
+      "NormalSequence" : 15499,
+      "PicMergeType" : {
+         "MosaicSequence" : [ 1, 101 ],
+         "MosaicType" : 1
+      }
+   },
+   "RadarSpeedSetTime" : 0.0,
+   "RadarSpeedSourceTime" : 0.0,
+   "RedLightUTC" : null,
+   "RedLightUTCMS" : null,
+   "RuleId" : 13,
+   "Sequence" : 1,
+   "Source" : 35,
+   "Speed" : 5,
+   "SpeedTypeInternal" : 0,
+   "TrafficCar" : {
+      "CountInGroup" : 1,
+      "DeviceAddress" : null,
+      "Direction" : 0,
+      "DrivingDirection" : [ "Approach", "", "" ],
+      "Event" : "TrafficWithoutSafeBelt",
+      "GroupID" : 1230352611,
+      "IndexInGroup" : 1,
+      "Lane" : 1,
+      "LaneDescription" : "1234",
+      "LowerSpeedLimit" : 10,
+      "MachineGroup" : null,
+      "MachineName" : "ITC952-RF2D-IR",
+      "OverSpeedMargin" : 0,
+      "PhysicalLane" : 0,
+      "RoadwayNo" : "",
+      "RouteNo" : "",
+      "Speed" : 5,
+      "UnderSpeedMargin" : 0,
+      "UpperSpeedLimit" : 70,
+      "VehicleColor" : "Black",
+      "VehicleSign" : "Unknown",
+      "VehicleSize" : "Light-duty",
+      "ViolationCode" : "",
+      "ViolationDesc" : "WithoutSafeBelt"
+   },
+   "UTC" : 1790007415,
+   "UTCMS" : 114,
+   "Vehicle" : {
+      "Action" : "Appear",
+      "BoundingBox" : [ 2568, 5024, 3768, 7888 ],
+      "BrandYear" : 0,
+      "CarLogoIndex" : 0,
+      "CarSeriesIndex" : 0,
+      "Category" : "SaloonCar",
+      "Center" : [ 3168, 6456 ],
+      "Confidence" : 252,
+      "DriverFace" : [
+         [ 0, 0, 0, 0 ],
+         [ 0, 0, 0, 0 ]
+      ],
+      "FrameSequence" : 1283922,
+      "MainColor" : [ 0, 0, 0, 0 ],
+      "MainSeat" : {
+         "DriverCalling" : "unknow",
+         "DriverSmoking" : "unknow",
+         "SafeBelt" : "unknow",
+         "SunShade" : "unknow"
+      },
+      "ObjectID" : 37643,
+      "ObjectType" : "Vehicle",
+      "Plate" : {
+         "BoundingBox" : [ 0, 0, 0, 0 ],
+         "FrameSequence" : 1283922,
+         "MainColor" : [ 0, 0, 0, 0 ],
+         "ObjectID" : 37643,
+         "ObjectType" : "Plate",
+         "PlateCentroid" : [ 0, 0 ],
+         "PlateType" : 0,
+         "Text" : ""
+      },
+      "RelativeID" : 0,
+      "ShotFrame" : true,
+      "SlaveSeat" : {
+         "DriverCalling" : "unknow",
+         "DriverSmoking" : "unknow",
+         "SafeBelt" : "unknow",
+         "SunShade" : "unknow"
+      },
+      "Source" : 0.0,
+      "Speed" : 5,
+      "SpeedTypeInternal" : 0,
+      "SubBrand" : 0,
+      "Text" : "Unknown"
+   },
+   "ViolationSnapSource" : 3
+}
+
+
+--myboundary
+Content-Type: text/plain
+Content-Length:3517
+
+Code=TrafficDriverCalling;action=Pulse;index=0;data={
+   "Action" : "Pulse",
+   "Class" : "",
+   "Code" : "TrafficDriverCalling",
+   "CostTime" : {
+      "3_AddSnapInfoTime1" : 51393586627.0
+   },
+   "CountInGroup" : 1,
+   "Direction" : "Obverse",
+   "EventSeq" : 3,
+   "EventValid" : true,
+   "Extension" : {
+      "EventLongID" : "0220260921161655081869900000"
+   },
+   "FrameSequence" : 1284051,
+   "GroupID" : 1230352611,
+   "InYellowLine" : false,
+   "IndexInGroup" : 1,
+   "Lane" : 0,
+   "LightColor" : null,
+   "Mark" : 124,
+   "Name" : "LaneLine2",
+   "NotSend" : true,
+   "OSDFormat" : [ 4096, 2160 ],
+   "Object" : {
+      "Action" : "Appear",
+      "BoundingBox" : [ 0, 0, 0, 0 ],
+      "Center" : [ 0, 0 ],
+      "Confidence" : 0,
+      "FrameSequence" : 0,
+      "ObjectID" : 0,
+      "ObjectType" : "Unknown",
+      "RelativeID" : 0,
+      "ShotFrame" : false,
+      "Source" : 0.0,
+      "Speed" : 0,
+      "SpeedTypeInternal" : 0
+   },
+   "PTS" : 43000766280.0,
+   "Picture" : {
+      "CarID" : 2291,
+      "EncodeTimes" : 1,
+      "MergeSequence" : 15500,
+      "NormalSequence" : 15501,
+      "PicMergeType" : {
+         "MosaicSequence" : [ 1, 101 ],
+         "MosaicType" : 1
+      }
+   },
+   "RadarSpeedSetTime" : 0.0,
+   "RadarSpeedSourceTime" : 0.0,
+   "RedLightUTC" : null,
+   "RedLightUTCMS" : null,
+   "RuleId" : 14,
+   "Sequence" : 1,
+   "Source" : 35,
+   "Speed" : 5,
+   "SpeedTypeInternal" : 0,
+   "TrafficCar" : {
+      "CountInGroup" : 1,
+      "DeviceAddress" : null,
+      "Direction" : 0,
+      "DrivingDirection" : [ "Approach", "", "" ],
+      "Event" : "TrafficDriverCalling",
+      "GroupID" : 1230352611,
+      "IndexInGroup" : 1,
+      "Lane" : 1,
+      "LaneDescription" : "1234",
+      "LowerSpeedLimit" : 10,
+      "MachineGroup" : null,
+      "MachineName" : "ITC952-RF2D-IR",
+      "OverSpeedMargin" : 0,
+      "PhysicalLane" : 0,
+      "RoadwayNo" : "",
+      "RouteNo" : "",
+      "Speed" : 5,
+      "UnderSpeedMargin" : 0,
+      "UpperSpeedLimit" : 70,
+      "VehicleColor" : "Black",
+      "VehicleSign" : "Unknown",
+      "VehicleSize" : "Light-duty",
+      "ViolationCode" : "",
+      "ViolationDesc" : "DriverCalling"
+   },
+   "UTC" : 1790007415,
+   "UTCMS" : 114,
+   "Vehicle" : {
+      "Action" : "Appear",
+      "BoundingBox" : [ 2568, 5024, 3768, 7888 ],
+      "BrandYear" : 0,
+      "CarLogoIndex" : 0,
+      "CarSeriesIndex" : 0,
+      "Category" : "SaloonCar",
+      "Center" : [ 3168, 6456 ],
+      "Confidence" : 252,
+      "DriverFace" : [
+         [ 0, 0, 0, 0 ],
+         [ 0, 0, 0, 0 ]
+      ],
+      "FrameSequence" : 1283922,
+      "MainColor" : [ 0, 0, 0, 0 ],
+      "MainSeat" : {
+         "DriverCalling" : "unknow",
+         "DriverSmoking" : "unknow",
+         "SafeBelt" : "unknow",
+         "SunShade" : "unknow"
+      },
+      "ObjectID" : 37643,
+      "ObjectType" : "Vehicle",
+      "Plate" : {
+         "BoundingBox" : [ 0, 0, 0, 0 ],
+         "FrameSequence" : 1283922,
+         "MainColor" : [ 0, 0, 0, 0 ],
+         "ObjectID" : 37643,
+         "ObjectType" : "Plate",
+         "PlateCentroid" : [ 0, 0 ],
+         "PlateType" : 0,
+         "Text" : ""
+      },
+      "RelativeID" : 0,
+      "ShotFrame" : true,
+      "SlaveSeat" : {
+         "DriverCalling" : "unknow",
+         "DriverSmoking" : "unknow",
+         "SafeBelt" : "unknow",
+         "SunShade" : "unknow"
+      },
+      "Source" : 0.0,
+      "Speed" : 5,
+      "SpeedTypeInternal" : 0,
+      "SubBrand" : 0,
+      "Text" : "Unknown"
+   },
+   "ViolationSnapSource" : 3
+}
+
+
+--myboundary
+Content-Type: text/plain
+Content-Length:3590
+
+Code=TrafficUnderSpeed;action=Pulse;index=0;data={
+   "Action" : "Pulse",
+   "Class" : "",
+   "Code" : "TrafficUnderSpeed",
+   "CostTime" : {
+      "3_AddSnapInfoTime1" : 51393586627.0
+   },
+   "CountInGroup" : 2,
+   "Direction" : "Obverse",
+   "EventSeq" : 6,
+   "EventValid" : true,
+   "Extension" : {
+      "EventLongID" : "0220260921161655081849900000"
+   },
+   "FrameSequence" : 1284051,
+   "GroupID" : 1230352611,
+   "InYellowLine" : false,
+   "IndexInGroup" : 1,
+   "Lane" : 0,
+   "LightColor" : null,
+   "Mark" : 124,
+   "Name" : "LaneLine2",
+   "NotSend" : true,
+   "OSDFormat" : [ 4096, 2160 ],
+   "Object" : {
+      "Action" : "Appear",
+      "BoundingBox" : [ 0, 0, 0, 0 ],
+      "Center" : [ 0, 0 ],
+      "Confidence" : 0,
+      "FrameSequence" : 0,
+      "ObjectID" : 0,
+      "ObjectType" : "Unknown",
+      "RelativeID" : 0,
+      "ShotFrame" : false,
+      "Source" : 0.0,
+      "Speed" : 0,
+      "SpeedTypeInternal" : 0
+   },
+   "OverSpeedMargin" : 0,
+   "PTS" : 43000766280.0,
+   "Picture" : {
+      "CarID" : 2291,
+      "EncodeTimes" : 1,
+      "MergeSequence" : 15496,
+      "NormalSequence" : 15497,
+      "PicMergeType" : {
+         "MosaicSequence" : [ 1, 2 ],
+         "MosaicType" : 2
+      }
+   },
+   "RadarSpeedSetTime" : 0.0,
+   "RadarSpeedSourceTime" : 0.0,
+   "RedLightUTC" : null,
+   "RedLightUTCMS" : null,
+   "RuleId" : 11,
+   "Sequence" : 2,
+   "Source" : 35,
+   "Speed" : 5,
+   "SpeedLimit" : [ 20, 70 ],
+   "SpeedTypeInternal" : 0,
+   "TrafficCar" : {
+      "CountInGroup" : 2,
+      "DeviceAddress" : null,
+      "Direction" : 0,
+      "DrivingDirection" : [ "Approach", "", "" ],
+      "Event" : "TrafficUnderSpeed",
+      "GroupID" : 1230352611,
+      "IndexInGroup" : 1,
+      "Lane" : 1,
+      "LaneDescription" : "1234",
+      "LowerSpeedLimit" : 10,
+      "MachineGroup" : null,
+      "MachineName" : "ITC952-RF2D-IR",
+      "OverSpeedMargin" : 0,
+      "PhysicalLane" : 0,
+      "RoadwayNo" : "",
+      "RouteNo" : "",
+      "Speed" : 5,
+      "UnderSpeedMargin" : 0,
+      "UpperSpeedLimit" : 70,
+      "VehicleColor" : "Black",
+      "VehicleSign" : "Unknown",
+      "VehicleSize" : "Light-duty",
+      "ViolationCode" : "4306",
+      "ViolationDesc" : "UnderSpeed"
+   },
+   "UTC" : 1790007415,
+   "UTCMS" : 114,
+   "UnderSpeedMargin" : 0,
+   "Vehicle" : {
+      "Action" : "Appear",
+      "BoundingBox" : [ 2568, 5024, 3768, 7888 ],
+      "BrandYear" : 0,
+      "CarLogoIndex" : 0,
+      "CarSeriesIndex" : 0,
+      "Category" : "SaloonCar",
+      "Center" : [ 3168, 6456 ],
+      "Confidence" : 252,
+      "DriverFace" : [
+         [ 0, 0, 0, 0 ],
+         [ 0, 0, 0, 0 ]
+      ],
+      "FrameSequence" : 1283922,
+      "MainColor" : [ 0, 0, 0, 0 ],
+      "MainSeat" : {
+         "DriverCalling" : "unknow",
+         "DriverSmoking" : "unknow",
+         "SafeBelt" : "unknow",
+         "SunShade" : "unknow"
+      },
+      "ObjectID" : 37643,
+      "ObjectType" : "Vehicle",
+      "Plate" : {
+         "BoundingBox" : [ 0, 0, 0, 0 ],
+         "FrameSequence" : 1283922,
+         "MainColor" : [ 0, 0, 0, 0 ],
+         "ObjectID" : 37643,
+         "ObjectType" : "Plate",
+         "PlateCentroid" : [ 0, 0 ],
+         "PlateType" : 0,
+         "Text" : ""
+      },
+      "RelativeID" : 0,
+      "ShotFrame" : true,
+      "SlaveSeat" : {
+         "DriverCalling" : "unknow",
+         "DriverSmoking" : "unknow",
+         "SafeBelt" : "unknow",
+         "SunShade" : "unknow"
+      },
+      "Source" : 0.0,
+      "Speed" : 5,
+      "SpeedTypeInternal" : 0,
+      "SubBrand" : 0,
+      "Text" : "Unknown"
+   },
+   "ViolationSnapSource" : 3
+}
+
+
+--myboundary
+Content-Type: text/plain
+Content-Length:3591
+
+Code=TrafficUnderSpeed;action=Pulse;index=0;data={
+   "Action" : "Pulse",
+   "Class" : "",
+   "Code" : "TrafficUnderSpeed",
+   "CostTime" : {
+      "3_AddSnapInfoTime1" : 51393791195.0
+   },
+   "CountInGroup" : 2,
+   "Direction" : "Obverse",
+   "EventSeq" : 7,
+   "EventValid" : true,
+   "Extension" : {
+      "EventLongID" : "0220260921161655081879900000"
+   },
+   "FrameSequence" : 1284058,
+   "GroupID" : 1230352611,
+   "InYellowLine" : false,
+   "IndexInGroup" : 2,
+   "Lane" : 0,
+   "LightColor" : null,
+   "Mark" : 125,
+   "Name" : "LaneLine2",
+   "NotSend" : true,
+   "OSDFormat" : [ 4096, 2160 ],
+   "Object" : {
+      "Action" : "Appear",
+      "BoundingBox" : [ 0, 0, 0, 0 ],
+      "Center" : [ 0, 0 ],
+      "Confidence" : 0,
+      "FrameSequence" : 0,
+      "ObjectID" : 0,
+      "ObjectType" : "Unknown",
+      "RelativeID" : 0,
+      "ShotFrame" : false,
+      "Source" : 0.0,
+      "Speed" : 0,
+      "SpeedTypeInternal" : 0
+   },
+   "OverSpeedMargin" : 0,
+   "PTS" : 43000766560.0,
+   "Picture" : {
+      "CarID" : 2291,
+      "EncodeTimes" : 0,
+      "MergeSequence" : 15496,
+      "NormalSequence" : 15502,
+      "PicMergeType" : {
+         "MosaicSequence" : [ 1, 2 ],
+         "MosaicType" : 2
+      }
+   },
+   "RadarSpeedSetTime" : 0.0,
+   "RadarSpeedSourceTime" : 0.0,
+   "RedLightUTC" : null,
+   "RedLightUTCMS" : null,
+   "RuleId" : 11,
+   "Sequence" : 1,
+   "Source" : 33,
+   "Speed" : 5,
+   "SpeedLimit" : [ 20, 70 ],
+   "SpeedTypeInternal" : 0,
+   "TrafficCar" : {
+      "CountInGroup" : 2,
+      "DeviceAddress" : null,
+      "Direction" : 0,
+      "DrivingDirection" : [ "Approach", "", "" ],
+      "Event" : "TrafficUnderSpeed",
+      "GroupID" : 1230352611,
+      "IndexInGroup" : 2,
+      "Lane" : 1,
+      "LaneDescription" : "1234",
+      "LowerSpeedLimit" : 10,
+      "MachineGroup" : null,
+      "MachineName" : "ITC952-RF2D-IR",
+      "OverSpeedMargin" : 0,
+      "PhysicalLane" : 0,
+      "RoadwayNo" : "",
+      "RouteNo" : "",
+      "Speed" : 5,
+      "UnderSpeedMargin" : 0,
+      "UpperSpeedLimit" : 70,
+      "VehicleColor" : "Black",
+      "VehicleSign" : "Unknown",
+      "VehicleSize" : "Light-duty",
+      "ViolationCode" : "4306",
+      "ViolationDesc" : "UnderSpeed"
+   },
+   "UTC" : 1790007415,
+   "UTCMS" : 394,
+   "UnderSpeedMargin" : 0,
+   "Vehicle" : {
+      "Action" : "Appear",
+      "BoundingBox" : [ 2536, 5832, 3784, 8184 ],
+      "BrandYear" : 0,
+      "CarLogoIndex" : 0,
+      "CarSeriesIndex" : 0,
+      "Category" : "SaloonCar",
+      "Center" : [ 3160, 7008 ],
+      "Confidence" : 248,
+      "DriverFace" : [
+         [ 0, 0, 0, 0 ],
+         [ 0, 0, 0, 0 ]
+      ],
+      "FrameSequence" : 1283922,
+      "MainColor" : [ 0, 0, 0, 0 ],
+      "MainSeat" : {
+         "DriverCalling" : "unknow",
+         "DriverSmoking" : "unknow",
+         "SafeBelt" : "unknow",
+         "SunShade" : "unknow"
+      },
+      "ObjectID" : 37643,
+      "ObjectType" : "Vehicle",
+      "Plate" : {
+         "BoundingBox" : [ 0, 0, 0, 0 ],
+         "FrameSequence" : 1283922,
+         "MainColor" : [ 0, 0, 0, 0 ],
+         "ObjectID" : 37643,
+         "ObjectType" : "Plate",
+         "PlateCentroid" : [ 0, 0 ],
+         "PlateType" : 0,
+         "Text" : ""
+      },
+      "RelativeID" : 0,
+      "ShotFrame" : false,
+      "SlaveSeat" : {
+         "DriverCalling" : "unknow",
+         "DriverSmoking" : "unknow",
+         "SafeBelt" : "unknow",
+         "SunShade" : "unknow"
+      },
+      "Source" : 0.0,
+      "Speed" : 5,
+      "SpeedTypeInternal" : 0,
+      "SubBrand" : 0,
+      "Text" : "Unknown"
+   },
+   "ViolationSnapSource" : 3
+}
+
+
+--myboundary
+Content-Type: text/plain
+Content-Length:163
+
+Code=GPS;action=Pulse;index=0;data={
+   "Latitude" : [ 90 ],
+   "Longitude" : [ 180 ],
+   "PositioningResult" : 0,
+   "SatelliteCount" : 0,
+   "Satellites" : []
+}
+
+
+--myboundary
+Content-Type: text/plain
+Content-Length:3871
+
+Code=TrafficUnderSpeed;action=Pulse;index=0;data={
+   "Action" : "Pulse",
+   "Class" : "",
+   "Code" : "TrafficUnderSpeed",
+   "CostTime" : {
+      "3_AddSnapInfoTime1" : 51393586627.0
+   },
+   "CountInGroup" : 2,
+   "Direction" : "Obverse",
+   "EncodeSequence" : 15497,
+   "EncodeTimes" : 1,
+   "EventSeq" : 6,
+   "EventValid" : true,
+   "Extension" : {
+      "EventLongID" : "0220260921161655081849900000"
+   },
+   "FrameSequence" : 1284051,
+   "GroupID" : 1230352611,
+   "InYellowLine" : false,
+   "IndexInGroup" : 1,
+   "Lane" : 0,
+   "LightColor" : null,
+   "Mark" : 124,
+   "Name" : "LaneLine2",
+   "NoOSD" : null,
+   "NotSend" : true,
+   "OSDFormat" : [ 4096, 2160 ],
+   "Object" : {
+      "Action" : "Appear",
+      "BoundingBox" : [ 0, 0, 0, 0 ],
+      "Category" : null,
+      "Center" : [ 0, 0 ],
+      "Confidence" : 0,
+      "DriverFace" : null,
+      "FrameSequence" : 0,
+      "MainColor" : null,
+      "MainSeat" : null,
+      "ObjectID" : 0,
+      "ObjectType" : "Unknown",
+      "RelativeID" : 0,
+      "ShotFrame" : false,
+      "SlaveSeat" : null,
+      "Source" : 0.0,
+      "Speed" : 0,
+      "SpeedTypeInternal" : 0,
+      "Text" : null
+   },
+   "OverSpeedMargin" : 0,
+   "PTS" : 43000766280.0,
+   "PicType" : 0,
+   "Picture" : {
+      "CarID" : 2291,
+      "EncodeTimes" : 1,
+      "MergeSequence" : 15496,
+      "NormalSequence" : 15497,
+      "PicMergeType" : {
+         "MosaicSequence" : [ 1, 2 ],
+         "MosaicType" : 2
+      }
+   },
+   "RadarSpeedSetTime" : 0.0,
+   "RadarSpeedSourceTime" : 0.0,
+   "RedLightUTC" : null,
+   "RedLightUTCMS" : null,
+   "RuleId" : 11,
+   "Sequence" : 2,
+   "Source" : 35,
+   "Speed" : 5,
+   "SpeedLimit" : [ 20, 70 ],
+   "SpeedTypeInternal" : 0,
+   "TrafficCar" : {
+      "CountInGroup" : 2,
+      "DeviceAddress" : null,
+      "Direction" : 0,
+      "DrivingDirection" : [ "Approach", "", "" ],
+      "Event" : "TrafficUnderSpeed",
+      "GroupID" : 1230352611,
+      "IndexInGroup" : 1,
+      "Lane" : 1,
+      "LaneDescription" : "1234",
+      "LowerSpeedLimit" : 10,
+      "MachineGroup" : null,
+      "MachineName" : "ITC952-RF2D-IR",
+      "OverSpeedMargin" : 0,
+      "PhysicalLane" : 0,
+      "RoadwayNo" : "",
+      "RouteNo" : "",
+      "Speed" : 5,
+      "UnderSpeedMargin" : 0,
+      "UpperSpeedLimit" : 70,
+      "VehicleColor" : "Black",
+      "VehicleSign" : "Unknown",
+      "VehicleSize" : "Light-duty",
+      "ViolationCode" : "4306",
+      "ViolationDesc" : "UnderSpeed"
+   },
+   "UTC" : 1790007415,
+   "UTCMS" : 114,
+   "UnderSpeedMargin" : 0,
+   "Vehicle" : {
+      "Action" : "Appear",
+      "BoundingBox" : [ 2568, 5024, 3768, 7888 ],
+      "BrandYear" : 0,
+      "CarLogoIndex" : 0,
+      "CarSeriesIndex" : 0,
+      "Category" : "SaloonCar",
+      "Center" : [ 3168, 6456 ],
+      "Confidence" : 252,
+      "DriverFace" : [
+         [ 0, 0, 0, 0 ],
+         [ 0, 0, 0, 0 ]
+      ],
+      "FrameSequence" : 1283922,
+      "MainColor" : [ 128, 128, 128, 0 ],
+      "MainSeat" : {
+         "DriverCalling" : "unknow",
+         "DriverSmoking" : "unknow",
+         "SafeBelt" : "unknow",
+         "SunShade" : "unknow"
+      },
+      "ObjectID" : 37643,
+      "ObjectType" : "Vehicle",
+      "OverseaCategory" : "Unknown",
+      "Plate" : {
+         "BoundingBox" : [ 0, 0, 0, 0 ],
+         "FrameSequence" : 1283922,
+         "MainColor" : [ 0, 0, 0, 0 ],
+         "ObjectID" : 37643,
+         "ObjectType" : "Plate",
+         "PlateCentroid" : [ 0, 0 ],
+         "PlateType" : 0,
+         "Text" : ""
+      },
+      "RelativeID" : 0,
+      "ShotFrame" : true,
+      "SlaveSeat" : {
+         "DriverCalling" : "unknow",
+         "DriverSmoking" : "unknow",
+         "SafeBelt" : "unknow",
+         "SunShade" : "unknow"
+      },
+      "Source" : 0.0,
+      "Speed" : 5,
+      "SpeedTypeInternal" : 0,
+      "SubBrand" : 0,
+      "Text" : "Unknown"
+   },
+   "ViolationSnapSource" : 3
+}
+
+
+--myboundary
+Content-Type: text/plain
+Content-Length:3996
+
+Code=TrafficUnderSpeed;action=Pulse;index=0;data={
+   "Action" : "Pulse",
+   "Class" : "",
+   "Code" : "TrafficUnderSpeed",
+   "CostTime" : {
+      "3_AddSnapInfoTime1" : 51393586627.0,
+      "5_BeforeGetOsd" : 51394272439.0,
+      "6_AfterGetOsd" : 51394276559.0,
+      "7_AfterGetOsdLattice" : 51394331585.0
+   },
+   "CountInGroup" : 2,
+   "Direction" : "Obverse",
+   "EncodeSequence" : 15496,
+   "EncodeTimes" : 0,
+   "EventSeq" : 6,
+   "EventValid" : true,
+   "Extension" : {
+      "EventLongID" : "0220260921161655081849900000"
+   },
+   "FrameSequence" : 1284051,
+   "GroupID" : 1230352611,
+   "InYellowLine" : false,
+   "IndexInGroup" : 1,
+   "Lane" : 0,
+   "LightColor" : null,
+   "Mark" : 124,
+   "Name" : "LaneLine2",
+   "NoOSD" : null,
+   "NotSend" : true,
+   "OSDFormat" : [ 2048, 2224 ],
+   "Object" : {
+      "Action" : "Appear",
+      "BoundingBox" : [ 0, 0, 0, 0 ],
+      "Category" : null,
+      "Center" : [ 0, 0 ],
+      "Confidence" : 0,
+      "DriverFace" : null,
+      "FrameSequence" : 0,
+      "MainColor" : null,
+      "MainSeat" : null,
+      "ObjectID" : 0,
+      "ObjectType" : "Unknown",
+      "RelativeID" : 0,
+      "ShotFrame" : false,
+      "SlaveSeat" : null,
+      "Source" : 0.0,
+      "Speed" : 0,
+      "SpeedTypeInternal" : 0,
+      "Text" : null
+   },
+   "OverSpeedMargin" : 0,
+   "PTS" : 43000766280.0,
+   "PicType" : 1,
+   "Picture" : {
+      "CarID" : 2291,
+      "EncodeTimes" : 1,
+      "MergeSequence" : 15496,
+      "NormalSequence" : 15497,
+      "PicMergeType" : {
+         "MosaicSequence" : [ 1, 2 ],
+         "MosaicType" : 2
+      }
+   },
+   "RadarSpeedSetTime" : 0.0,
+   "RadarSpeedSourceTime" : 0.0,
+   "RedLightUTC" : null,
+   "RedLightUTCMS" : null,
+   "RuleId" : 11,
+   "Sequence" : 2,
+   "Source" : 35,
+   "Speed" : 5,
+   "SpeedLimit" : [ 20, 70 ],
+   "SpeedTypeInternal" : 0,
+   "TrafficCar" : {
+      "CountInGroup" : 2,
+      "DeviceAddress" : null,
+      "Direction" : 0,
+      "DrivingDirection" : [ "Approach", "", "" ],
+      "Event" : "TrafficUnderSpeed",
+      "GroupID" : 1230352611,
+      "IndexInGroup" : 1,
+      "Lane" : 1,
+      "LaneDescription" : "1234",
+      "LowerSpeedLimit" : 10,
+      "MachineGroup" : null,
+      "MachineName" : "ITC952-RF2D-IR",
+      "OverSpeedMargin" : 0,
+      "PhysicalLane" : 0,
+      "RoadwayNo" : "",
+      "RouteNo" : "",
+      "Speed" : 5,
+      "UnderSpeedMargin" : 0,
+      "UpperSpeedLimit" : 70,
+      "VehicleColor" : "Black",
+      "VehicleSign" : "Unknown",
+      "VehicleSize" : "Light-duty",
+      "ViolationCode" : "4306",
+      "ViolationDesc" : "UnderSpeed"
+   },
+   "UTC" : 1790007415,
+   "UTCMS" : 114,
+   "UnderSpeedMargin" : 0,
+   "Vehicle" : {
+      "Action" : "Appear",
+      "BoundingBox" : [ 2568, 5024, 3768, 7888 ],
+      "BrandYear" : 0,
+      "CarLogoIndex" : 0,
+      "CarSeriesIndex" : 0,
+      "Category" : "SaloonCar",
+      "Center" : [ 3168, 6456 ],
+      "Confidence" : 252,
+      "DriverFace" : [
+         [ 0, 0, 0, 0 ],
+         [ 0, 0, 0, 0 ]
+      ],
+      "FrameSequence" : 1283922,
+      "MainColor" : [ 128, 128, 128, 0 ],
+      "MainSeat" : {
+         "DriverCalling" : "unknow",
+         "DriverSmoking" : "unknow",
+         "SafeBelt" : "unknow",
+         "SunShade" : "unknow"
+      },
+      "ObjectID" : 37643,
+      "ObjectType" : "Vehicle",
+      "OverseaCategory" : "Unknown",
+      "Plate" : {
+         "BoundingBox" : [ 0, 0, 0, 0 ],
+         "FrameSequence" : 1283922,
+         "MainColor" : [ 0, 0, 0, 0 ],
+         "ObjectID" : 37643,
+         "ObjectType" : "Plate",
+         "PlateCentroid" : [ 0, 0 ],
+         "PlateType" : 0,
+         "Text" : ""
+      },
+      "RelativeID" : 0,
+      "ShotFrame" : true,
+      "SlaveSeat" : {
+         "DriverCalling" : "unknow",
+         "DriverSmoking" : "unknow",
+         "SafeBelt" : "unknow",
+         "SunShade" : "unknow"
+      },
+      "Source" : 0.0,
+      "Speed" : 5,
+      "SpeedTypeInternal" : 0,
+      "SubBrand" : 0,
+      "Text" : "Unknown"
+   },
+   "ViolationSnapSource" : 3
+}
+
+
+--myboundary
+Content-Type: text/plain
+Content-Length:3894
+
+Code=TrafficUnderSpeed;action=Pulse;index=0;data={
+   "Action" : "Pulse",
+   "Class" : "",
+   "Code" : "TrafficUnderSpeed",
+   "CostTime" : {
+      "3_AddSnapInfoTime1" : 51393791195.0
+   },
+   "CountInGroup" : 2,
+   "Direction" : "Obverse",
+   "EncodeSequence" : 15502,
+   "EncodeTimes" : 0,
+   "EventSeq" : 7,
+   "EventValid" : true,
+   "Extension" : {
+      "EventLongID" : "0220260921161655081879900000"
+   },
+   "FrameSequence" : 1284058,
+   "GroupID" : 1230352611,
+   "InYellowLine" : false,
+   "IndexInGroup" : 2,
+   "Lane" : 0,
+   "LightColor" : null,
+   "Mark" : 125,
+   "Name" : "LaneLine2",
+   "NoOSD" : null,
+   "NotSend" : true,
+   "OSDFormat" : [ 4096, 2160 ],
+   "Object" : {
+      "Action" : "Appear",
+      "BoundingBox" : [ 0, 0, 0, 0 ],
+      "Category" : null,
+      "Center" : [ 0, 0 ],
+      "Confidence" : 0,
+      "DriverFace" : null,
+      "FrameSequence" : 0,
+      "MainColor" : null,
+      "MainSeat" : null,
+      "ObjectID" : 0,
+      "ObjectType" : "Unknown",
+      "RelativeID" : 0,
+      "ShotFrame" : false,
+      "SlaveSeat" : null,
+      "Source" : 0.0,
+      "Speed" : 0,
+      "SpeedTypeInternal" : 0,
+      "Text" : null
+   },
+   "OverSpeedMargin" : 0,
+   "PTS" : 43000766560.0,
+   "PicType" : 0,
+   "Picture" : {
+      "CarID" : 2291,
+      "EncodeTimes" : 0,
+      "MergeSequence" : 15496,
+      "NormalSequence" : 15502,
+      "PicMergeType" : {
+         "MosaicSequence" : [ 1, 2 ],
+         "MosaicType" : 2
+      }
+   },
+   "RadarSpeedSetTime" : 0.0,
+   "RadarSpeedSourceTime" : 0.0,
+   "RedLightUTC" : null,
+   "RedLightUTCMS" : null,
+   "RuleId" : 11,
+   "Sequence" : 1,
+   "Source" : 33,
+   "Speed" : 5,
+   "SpeedLimit" : [ 20, 70 ],
+   "SpeedTypeInternal" : 0,
+   "TrafficCar" : {
+      "CountInGroup" : 2,
+      "DeviceAddress" : null,
+      "Direction" : 0,
+      "DrivingDirection" : [ "Approach", "", "" ],
+      "Event" : "TrafficUnderSpeed",
+      "GroupID" : 1230352611,
+      "IndexInGroup" : 2,
+      "Lane" : 1,
+      "LaneDescription" : "1234",
+      "LowerSpeedLimit" : 10,
+      "MachineGroup" : null,
+      "MachineName" : "ITC952-RF2D-IR",
+      "OverSpeedMargin" : 0,
+      "PhysicalLane" : 0,
+      "RoadwayNo" : "",
+      "RouteNo" : "",
+      "Speed" : 5,
+      "UnderSpeedMargin" : 0,
+      "UpperSpeedLimit" : 70,
+      "VehicleColor" : "Black",
+      "VehicleSign" : "Unknown",
+      "VehicleSize" : "Light-duty",
+      "ViolationCode" : "4306",
+      "ViolationDesc" : "UnderSpeed"
+   },
+   "UTC" : 1790007415,
+   "UTCMS" : 394,
+   "UnderSpeedMargin" : 0,
+   "Vehicle" : {
+      "Action" : "Appear",
+      "BoundingBox" : [ 2536, 5832, 3784, 8184 ],
+      "BrandYear" : 0,
+      "CarLogoIndex" : 0,
+      "CarSeriesIndex" : 0,
+      "Category" : "SaloonCar",
+      "Center" : [ 3160, 7008 ],
+      "Confidence" : 248,
+      "DriverFace" : [
+         [ 0, 0, 0, 0 ],
+         [ 0, 0, 0, 0 ]
+      ],
+      "Extra" : null,
+      "FrameSequence" : 1283922,
+      "MainColor" : [ 128, 128, 128, 0 ],
+      "MainSeat" : {
+         "DriverCalling" : "unknow",
+         "DriverSmoking" : "unknow",
+         "SafeBelt" : "unknow",
+         "SunShade" : "unknow"
+      },
+      "ObjectID" : 37643,
+      "ObjectType" : "Vehicle",
+      "OverseaCategory" : "Unknown",
+      "Plate" : {
+         "BoundingBox" : [ 0, 0, 0, 0 ],
+         "FrameSequence" : 1283922,
+         "MainColor" : [ 0, 0, 0, 0 ],
+         "ObjectID" : 37643,
+         "ObjectType" : "Plate",
+         "PlateCentroid" : [ 0, 0 ],
+         "PlateType" : 0,
+         "Text" : ""
+      },
+      "RelativeID" : 0,
+      "ShotFrame" : false,
+      "SlaveSeat" : {
+         "DriverCalling" : "unknow",
+         "DriverSmoking" : "unknow",
+         "SafeBelt" : "unknow",
+         "SunShade" : "unknow"
+      },
+      "Source" : 0.0,
+      "Speed" : 5,
+      "SpeedTypeInternal" : 0,
+      "SubBrand" : 0,
+      "Text" : "Unknown"
+   },
+   "ViolationSnapSource" : 3
+}
+
+
+--myboundary
+Content-Type: text/plain
+Content-Length:3791
+
+Code=TrafficJunction;action=Pulse;index=0;data={
+   "Action" : "Pulse",
+   "Class" : "",
+   "Code" : "TrafficJunction",
+   "CostTime" : {
+      "3_AddSnapInfoTime1" : 51393586627.0
+   },
+   "CountInGroup" : 1,
+   "Direction" : "Obverse",
+   "EncodeSequence" : 15495,
+   "EncodeTimes" : 1,
+   "EventSeq" : 3,
+   "EventValid" : true,
+   "Extension" : {
+      "EventLongID" : "0220260921161655081839900000"
+   },
+   "FrameSequence" : 1284051,
+   "GroupID" : 1230352611,
+   "InYellowLine" : false,
+   "IndexInGroup" : 1,
+   "Lane" : 0,
+   "LightColor" : null,
+   "Mark" : 124,
+   "Name" : "LaneLine2",
+   "NoOSD" : null,
+   "NotSend" : true,
+   "OSDFormat" : [ 4096, 2160 ],
+   "Object" : {
+      "Action" : "Appear",
+      "BoundingBox" : [ 0, 0, 0, 0 ],
+      "Category" : null,
+      "Center" : [ 0, 0 ],
+      "Confidence" : 0,
+      "DriverFace" : null,
+      "FrameSequence" : 0,
+      "MainColor" : null,
+      "MainSeat" : null,
+      "ObjectID" : 0,
+      "ObjectType" : "Unknown",
+      "RelativeID" : 0,
+      "ShotFrame" : false,
+      "SlaveSeat" : null,
+      "Source" : 0.0,
+      "Speed" : 0,
+      "SpeedTypeInternal" : 0,
+      "Text" : null
+   },
+   "PTS" : 43000766280.0,
+   "PicType" : 0,
+   "Picture" : {
+      "CarID" : 2291,
+      "EncodeTimes" : 1,
+      "MergeSequence" : 15494,
+      "NormalSequence" : 15495,
+      "PicMergeType" : {
+         "MosaicSequence" : [ 1, 101 ],
+         "MosaicType" : 1
+      }
+   },
+   "RadarSpeedSetTime" : 0.0,
+   "RadarSpeedSourceTime" : 0.0,
+   "RedLightUTC" : null,
+   "RedLightUTCMS" : null,
+   "RuleId" : 3,
+   "Sequence" : 1,
+   "Source" : 35,
+   "Speed" : 5,
+   "SpeedTypeInternal" : 0,
+   "TrafficCar" : {
+      "CountInGroup" : 1,
+      "DeviceAddress" : null,
+      "Direction" : 0,
+      "DrivingDirection" : [ "Approach", "", "" ],
+      "Event" : "TrafficJunction",
+      "GroupID" : 1230352611,
+      "IndexInGroup" : 1,
+      "Lane" : 1,
+      "LaneDescription" : "1234",
+      "LowerSpeedLimit" : 10,
+      "MachineGroup" : null,
+      "MachineName" : "ITC952-RF2D-IR",
+      "OverSpeedMargin" : 0,
+      "PhysicalLane" : 0,
+      "RoadwayNo" : "",
+      "RouteNo" : "",
+      "Speed" : 5,
+      "UnderSpeedMargin" : 0,
+      "UpperSpeedLimit" : 70,
+      "VehicleColor" : "Black",
+      "VehicleSign" : "Unknown",
+      "VehicleSize" : "Light-duty",
+      "ViolationCode" : "",
+      "ViolationDesc" : ""
+   },
+   "UTC" : 1790007415,
+   "UTCMS" : 114,
+   "Vehicle" : {
+      "Action" : "Appear",
+      "BoundingBox" : [ 2568, 5024, 3768, 7888 ],
+      "BrandYear" : 0,
+      "CarLogoIndex" : 0,
+      "CarSeriesIndex" : 0,
+      "Category" : "SaloonCar",
+      "Center" : [ 3168, 6456 ],
+      "Confidence" : 252,
+      "DriverFace" : [
+         [ 0, 0, 0, 0 ],
+         [ 0, 0, 0, 0 ]
+      ],
+      "Extra" : null,
+      "FrameSequence" : 1283922,
+      "MainColor" : [ 128, 128, 128, 0 ],
+      "MainSeat" : {
+         "DriverCalling" : "unknow",
+         "DriverSmoking" : "unknow",
+         "SafeBelt" : "unknow",
+         "SunShade" : "unknow"
+      },
+      "ObjectID" : 37643,
+      "ObjectType" : "Vehicle",
+      "OverseaCategory" : "Unknown",
+      "Plate" : {
+         "BoundingBox" : [ 0, 0, 0, 0 ],
+         "FrameSequence" : 1283922,
+         "MainColor" : [ 0, 0, 0, 0 ],
+         "ObjectID" : 37643,
+         "ObjectType" : "Plate",
+         "PlateCentroid" : [ 0, 0 ],
+         "PlateType" : 0,
+         "Text" : ""
+      },
+      "RelativeID" : 0,
+      "ShotFrame" : true,
+      "SlaveSeat" : {
+         "DriverCalling" : "unknow",
+         "DriverSmoking" : "unknow",
+         "SafeBelt" : "unknow",
+         "SunShade" : "unknow"
+      },
+      "Source" : 0.0,
+      "Speed" : 5,
+      "SpeedTypeInternal" : 0,
+      "SubBrand" : 0,
+      "Text" : "Unknown"
+   },
+   "ViolationSnapSource" : 3
+}
+
+
+--myboundary
+Content-Type: text/plain
+Content-Length:3916
+
+Code=TrafficJunction;action=Pulse;index=0;data={
+   "Action" : "Pulse",
+   "Class" : "",
+   "Code" : "TrafficJunction",
+   "CostTime" : {
+      "3_AddSnapInfoTime1" : 51393586627.0,
+      "5_BeforeGetOsd" : 51394463167.0,
+      "6_AfterGetOsd" : 51394467268.0,
+      "7_AfterGetOsdLattice" : 51394530533.0
+   },
+   "CountInGroup" : 1,
+   "Direction" : "Obverse",
+   "EncodeSequence" : 15494,
+   "EncodeTimes" : 0,
+   "EventSeq" : 3,
+   "EventValid" : true,
+   "Extension" : {
+      "EventLongID" : "0220260921161655081839900000"
+   },
+   "FrameSequence" : 1284051,
+   "GroupID" : 1230352611,
+   "InYellowLine" : false,
+   "IndexInGroup" : 1,
+   "Lane" : 0,
+   "LightColor" : null,
+   "Mark" : 124,
+   "Name" : "LaneLine2",
+   "NoOSD" : null,
+   "NotSend" : true,
+   "OSDFormat" : [ 4096, 1112 ],
+   "Object" : {
+      "Action" : "Appear",
+      "BoundingBox" : [ 0, 0, 0, 0 ],
+      "Category" : null,
+      "Center" : [ 0, 0 ],
+      "Confidence" : 0,
+      "DriverFace" : null,
+      "FrameSequence" : 0,
+      "MainColor" : null,
+      "MainSeat" : null,
+      "ObjectID" : 0,
+      "ObjectType" : "Unknown",
+      "RelativeID" : 0,
+      "ShotFrame" : false,
+      "SlaveSeat" : null,
+      "Source" : 0.0,
+      "Speed" : 0,
+      "SpeedTypeInternal" : 0,
+      "Text" : null
+   },
+   "PTS" : 43000766280.0,
+   "PicType" : 1,
+   "Picture" : {
+      "CarID" : 2291,
+      "EncodeTimes" : 1,
+      "MergeSequence" : 15494,
+      "NormalSequence" : 15495,
+      "PicMergeType" : {
+         "MosaicSequence" : [ 1, 101 ],
+         "MosaicType" : 1
+      }
+   },
+   "RadarSpeedSetTime" : 0.0,
+   "RadarSpeedSourceTime" : 0.0,
+   "RedLightUTC" : null,
+   "RedLightUTCMS" : null,
+   "RuleId" : 3,
+   "Sequence" : 1,
+   "Source" : 35,
+   "Speed" : 5,
+   "SpeedTypeInternal" : 0,
+   "TrafficCar" : {
+      "CountInGroup" : 1,
+      "DeviceAddress" : null,
+      "Direction" : 0,
+      "DrivingDirection" : [ "Approach", "", "" ],
+      "Event" : "TrafficJunction",
+      "GroupID" : 1230352611,
+      "IndexInGroup" : 1,
+      "Lane" : 1,
+      "LaneDescription" : "1234",
+      "LowerSpeedLimit" : 10,
+      "MachineGroup" : null,
+      "MachineName" : "ITC952-RF2D-IR",
+      "OverSpeedMargin" : 0,
+      "PhysicalLane" : 0,
+      "RoadwayNo" : "",
+      "RouteNo" : "",
+      "Speed" : 5,
+      "UnderSpeedMargin" : 0,
+      "UpperSpeedLimit" : 70,
+      "VehicleColor" : "Black",
+      "VehicleSign" : "Unknown",
+      "VehicleSize" : "Light-duty",
+      "ViolationCode" : "",
+      "ViolationDesc" : ""
+   },
+   "UTC" : 1790007415,
+   "UTCMS" : 114,
+   "Vehicle" : {
+      "Action" : "Appear",
+      "BoundingBox" : [ 2568, 5024, 3768, 7888 ],
+      "BrandYear" : 0,
+      "CarLogoIndex" : 0,
+      "CarSeriesIndex" : 0,
+      "Category" : "SaloonCar",
+      "Center" : [ 3168, 6456 ],
+      "Confidence" : 252,
+      "DriverFace" : [
+         [ 0, 0, 0, 0 ],
+         [ 0, 0, 0, 0 ]
+      ],
+      "Extra" : null,
+      "FrameSequence" : 1283922,
+      "MainColor" : [ 128, 128, 128, 0 ],
+      "MainSeat" : {
+         "DriverCalling" : "unknow",
+         "DriverSmoking" : "unknow",
+         "SafeBelt" : "unknow",
+         "SunShade" : "unknow"
+      },
+      "ObjectID" : 37643,
+      "ObjectType" : "Vehicle",
+      "OverseaCategory" : "Unknown",
+      "Plate" : {
+         "BoundingBox" : [ 0, 0, 0, 0 ],
+         "FrameSequence" : 1283922,
+         "MainColor" : [ 0, 0, 0, 0 ],
+         "ObjectID" : 37643,
+         "ObjectType" : "Plate",
+         "PlateCentroid" : [ 0, 0 ],
+         "PlateType" : 0,
+         "Text" : ""
+      },
+      "RelativeID" : 0,
+      "ShotFrame" : true,
+      "SlaveSeat" : {
+         "DriverCalling" : "unknow",
+         "DriverSmoking" : "unknow",
+         "SafeBelt" : "unknow",
+         "SunShade" : "unknow"
+      },
+      "Source" : 0.0,
+      "Speed" : 5,
+      "SpeedTypeInternal" : 0,
+      "SubBrand" : 0,
+      "Text" : "Unknown"
+   },
+   "ViolationSnapSource" : 3
+}
+
+
+--myboundary
+Content-Type: text/plain
+Content-Length:320
+
+Code=ForceCarPassInfo;action=Pulse;index=0;data={
+   "ObjectList" : [
+      {
+         "Extra" : {
+            "DrivingDirection" : "Leave",
+            "Lane" : 2,
+            "Speed" : 0,
+            "VechleDirection" : 0
+         },
+         "ObjectID" : 37635
+      }
+   ],
+   "UTC" : 1790007419,
+   "UTCMS" : 571
+}
+
+
+--myboundary
+Content-Type: text/plain
+Content-Length:320
+
+Code=ForceCarPassInfo;action=Pulse;index=0;data={
+   "ObjectList" : [
+      {
+         "Extra" : {
+            "DrivingDirection" : "Leave",
+            "Lane" : 0,
+            "Speed" : 5,
+            "VechleDirection" : 0
+         },
+         "ObjectID" : 37643
+      }
+   ],
+   "UTC" : 1790007427,
+   "UTCMS" : 490
+}
+
+
+--myboundary
+Content-Type: text/plain
+Content-Length:163
+
+Code=GPS;action=Pulse;index=0;data={
+   "Latitude" : [ 90 ],
+   "Longitude" : [ 180 ],
+   "PositioningResult" : 0,
+   "SatelliteCount" : 0,
+   "Satellites" : []
+}
+
+
+--myboundary
+Content-Type: text/plain
+Content-Length:3489
+
+Code=TrafficJunction;action=Pulse;index=0;data={
+   "Action" : "Pulse",
+   "Class" : "",
+   "Code" : "TrafficJunction",
+   "CostTime" : {
+      "3_AddSnapInfoTime1" : 51407020304.0
+   },
+   "CountInGroup" : 1,
+   "Direction" : "Obverse",
+   "EventSeq" : 11,
+   "EventValid" : true,
+   "Extension" : {
+      "EventLongID" : "0220260921161708081889900000"
+   },
+   "FrameSequence" : 1284387,
+   "GroupID" : 1231008003,
+   "InYellowLine" : false,
+   "IndexInGroup" : 1,
+   "Lane" : 0,
+   "LightColor" : null,
+   "Mark" : 126,
+   "Name" : "LaneLine1",
+   "NotSend" : true,
+   "OSDFormat" : [ 4096, 2160 ],
+   "Object" : {
+      "Action" : "Appear",
+      "BoundingBox" : [ 0, 0, 0, 0 ],
+      "Center" : [ 0, 0 ],
+      "Confidence" : 0,
+      "FrameSequence" : 0,
+      "ObjectID" : 0,
+      "ObjectType" : "Unknown",
+      "RelativeID" : 0,
+      "ShotFrame" : false,
+      "Source" : 0.0,
+      "Speed" : 0,
+      "SpeedTypeInternal" : 0
+   },
+   "PTS" : 43000779720.0,
+   "Picture" : {
+      "CarID" : 2292,
+      "EncodeTimes" : 1,
+      "MergeSequence" : 15503,
+      "NormalSequence" : 15504,
+      "PicMergeType" : {
+         "MosaicSequence" : [ 1, 101 ],
+         "MosaicType" : 1
+      }
+   },
+   "RadarSpeedSetTime" : 0.0,
+   "RadarSpeedSourceTime" : 0.0,
+   "RedLightUTC" : null,
+   "RedLightUTCMS" : null,
+   "RuleId" : 1,
+   "Sequence" : 1,
+   "Source" : 43,
+   "Speed" : 5,
+   "SpeedTypeInternal" : 0,
+   "TrafficCar" : {
+      "CountInGroup" : 1,
+      "DeviceAddress" : null,
+      "Direction" : 0,
+      "DrivingDirection" : [ "Approach", "", "" ],
+      "Event" : "TrafficJunction",
+      "GroupID" : 1231008003,
+      "IndexInGroup" : 1,
+      "Lane" : 1,
+      "LaneDescription" : "1234",
+      "LowerSpeedLimit" : 10,
+      "MachineGroup" : null,
+      "MachineName" : "ITC952-RF2D-IR",
+      "OverSpeedMargin" : 0,
+      "PhysicalLane" : 0,
+      "RoadwayNo" : "",
+      "RouteNo" : "",
+      "Speed" : 5,
+      "UnderSpeedMargin" : 0,
+      "UpperSpeedLimit" : 70,
+      "VehicleColor" : "Black",
+      "VehicleSign" : "Unknown",
+      "VehicleSize" : "Light-duty",
+      "ViolationCode" : "",
+      "ViolationDesc" : ""
+   },
+   "UTC" : 1790007428,
+   "UTCMS" : 552,
+   "Vehicle" : {
+      "Action" : "Appear",
+      "BoundingBox" : [ 2240, 2752, 3808, 8144 ],
+      "BrandYear" : 0,
+      "CarLogoIndex" : 0,
+      "CarSeriesIndex" : 0,
+      "Category" : "SaloonCar",
+      "Center" : [ 3024, 5448 ],
+      "Confidence" : 252,
+      "DriverFace" : [
+         [ 0, 0, 0, 0 ],
+         [ 0, 0, 0, 0 ]
+      ],
+      "FrameSequence" : 1284312,
+      "MainColor" : [ 0, 0, 0, 0 ],
+      "MainSeat" : {
+         "DriverCalling" : "unknow",
+         "DriverSmoking" : "unknow",
+         "SafeBelt" : "unknow",
+         "SunShade" : "unknow"
+      },
+      "ObjectID" : 37663,
+      "ObjectType" : "Vehicle",
+      "Plate" : {
+         "BoundingBox" : [ 0, 0, 0, 0 ],
+         "FrameSequence" : 1284312,
+         "MainColor" : [ 0, 0, 0, 0 ],
+         "ObjectID" : 37663,
+         "ObjectType" : "Plate",
+         "PlateCentroid" : [ 0, 0 ],
+         "PlateType" : 0,
+         "Text" : ""
+      },
+      "RelativeID" : 0,
+      "ShotFrame" : true,
+      "SlaveSeat" : {
+         "DriverCalling" : "unknow",
+         "DriverSmoking" : "unknow",
+         "SafeBelt" : "unknow",
+         "SunShade" : "unknow"
+      },
+      "Source" : 0.0,
+      "Speed" : 5,
+      "SpeedTypeInternal" : 0,
+      "SubBrand" : 0,
+      "Text" : "Unknown"
+   },
+   "ViolationSnapSource" : 3
+}
+
+
+--myboundary
+Content-Type: text/plain
+Content-Length:3525
+
+Code=TrafficWithoutSafeBelt;action=Pulse;index=0;data={
+   "Action" : "Pulse",
+   "Class" : "",
+   "Code" : "TrafficWithoutSafeBelt",
+   "CostTime" : {
+      "3_AddSnapInfoTime1" : 51407020304.0
+   },
+   "CountInGroup" : 1,
+   "Direction" : "Obverse",
+   "EventSeq" : 11,
+   "EventValid" : true,
+   "Extension" : {
+      "EventLongID" : "0220260921161708081909900000"
+   },
+   "FrameSequence" : 1284387,
+   "GroupID" : 1231008003,
+   "InYellowLine" : false,
+   "IndexInGroup" : 1,
+   "Lane" : 0,
+   "LightColor" : null,
+   "Mark" : 126,
+   "Name" : "LaneLine1",
+   "NotSend" : true,
+   "OSDFormat" : [ 4096, 2160 ],
+   "Object" : {
+      "Action" : "Appear",
+      "BoundingBox" : [ 0, 0, 0, 0 ],
+      "Center" : [ 0, 0 ],
+      "Confidence" : 0,
+      "FrameSequence" : 0,
+      "ObjectID" : 0,
+      "ObjectType" : "Unknown",
+      "RelativeID" : 0,
+      "ShotFrame" : false,
+      "Source" : 0.0,
+      "Speed" : 0,
+      "SpeedTypeInternal" : 0
+   },
+   "PTS" : 43000779720.0,
+   "Picture" : {
+      "CarID" : 2292,
+      "EncodeTimes" : 1,
+      "MergeSequence" : 15507,
+      "NormalSequence" : 15508,
+      "PicMergeType" : {
+         "MosaicSequence" : [ 1, 101 ],
+         "MosaicType" : 1
+      }
+   },
+   "RadarSpeedSetTime" : 0.0,
+   "RadarSpeedSourceTime" : 0.0,
+   "RedLightUTC" : null,
+   "RedLightUTCMS" : null,
+   "RuleId" : 9,
+   "Sequence" : 1,
+   "Source" : 43,
+   "Speed" : 5,
+   "SpeedTypeInternal" : 0,
+   "TrafficCar" : {
+      "CountInGroup" : 1,
+      "DeviceAddress" : null,
+      "Direction" : 0,
+      "DrivingDirection" : [ "Approach", "", "" ],
+      "Event" : "TrafficWithoutSafeBelt",
+      "GroupID" : 1231008003,
+      "IndexInGroup" : 1,
+      "Lane" : 1,
+      "LaneDescription" : "1234",
+      "LowerSpeedLimit" : 10,
+      "MachineGroup" : null,
+      "MachineName" : "ITC952-RF2D-IR",
+      "OverSpeedMargin" : 0,
+      "PhysicalLane" : 0,
+      "RoadwayNo" : "",
+      "RouteNo" : "",
+      "Speed" : 5,
+      "UnderSpeedMargin" : 0,
+      "UpperSpeedLimit" : 70,
+      "VehicleColor" : "Black",
+      "VehicleSign" : "Unknown",
+      "VehicleSize" : "Light-duty",
+      "ViolationCode" : "",
+      "ViolationDesc" : "WithoutSafeBelt"
+   },
+   "UTC" : 1790007428,
+   "UTCMS" : 552,
+   "Vehicle" : {
+      "Action" : "Appear",
+      "BoundingBox" : [ 2240, 2752, 3808, 8144 ],
+      "BrandYear" : 0,
+      "CarLogoIndex" : 0,
+      "CarSeriesIndex" : 0,
+      "Category" : "SaloonCar",
+      "Center" : [ 3024, 5448 ],
+      "Confidence" : 252,
+      "DriverFace" : [
+         [ 0, 0, 0, 0 ],
+         [ 0, 0, 0, 0 ]
+      ],
+      "FrameSequence" : 1284312,
+      "MainColor" : [ 0, 0, 0, 0 ],
+      "MainSeat" : {
+         "DriverCalling" : "unknow",
+         "DriverSmoking" : "unknow",
+         "SafeBelt" : "unknow",
+         "SunShade" : "unknow"
+      },
+      "ObjectID" : 37663,
+      "ObjectType" : "Vehicle",
+      "Plate" : {
+         "BoundingBox" : [ 0, 0, 0, 0 ],
+         "FrameSequence" : 1284312,
+         "MainColor" : [ 0, 0, 0, 0 ],
+         "ObjectID" : 37663,
+         "ObjectType" : "Plate",
+         "PlateCentroid" : [ 0, 0 ],
+         "PlateType" : 0,
+         "Text" : ""
+      },
+      "RelativeID" : 0,
+      "ShotFrame" : true,
+      "SlaveSeat" : {
+         "DriverCalling" : "unknow",
+         "DriverSmoking" : "unknow",
+         "SafeBelt" : "unknow",
+         "SunShade" : "unknow"
+      },
+      "Source" : 0.0,
+      "Speed" : 5,
+      "SpeedTypeInternal" : 0,
+      "SubBrand" : 0,
+      "Text" : "Unknown"
+   },
+   "ViolationSnapSource" : 3
+}
+
+
+--myboundary
+Content-Type: text/plain
+Content-Length:3518
+
+Code=TrafficDriverCalling;action=Pulse;index=0;data={
+   "Action" : "Pulse",
+   "Class" : "",
+   "Code" : "TrafficDriverCalling",
+   "CostTime" : {
+      "3_AddSnapInfoTime1" : 51407020304.0
+   },
+   "CountInGroup" : 1,
+   "Direction" : "Obverse",
+   "EventSeq" : 11,
+   "EventValid" : true,
+   "Extension" : {
+      "EventLongID" : "0220260921161708081919900000"
+   },
+   "FrameSequence" : 1284387,
+   "GroupID" : 1231008003,
+   "InYellowLine" : false,
+   "IndexInGroup" : 1,
+   "Lane" : 0,
+   "LightColor" : null,
+   "Mark" : 126,
+   "Name" : "LaneLine1",
+   "NotSend" : true,
+   "OSDFormat" : [ 4096, 2160 ],
+   "Object" : {
+      "Action" : "Appear",
+      "BoundingBox" : [ 0, 0, 0, 0 ],
+      "Center" : [ 0, 0 ],
+      "Confidence" : 0,
+      "FrameSequence" : 0,
+      "ObjectID" : 0,
+      "ObjectType" : "Unknown",
+      "RelativeID" : 0,
+      "ShotFrame" : false,
+      "Source" : 0.0,
+      "Speed" : 0,
+      "SpeedTypeInternal" : 0
+   },
+   "PTS" : 43000779720.0,
+   "Picture" : {
+      "CarID" : 2292,
+      "EncodeTimes" : 1,
+      "MergeSequence" : 15509,
+      "NormalSequence" : 15510,
+      "PicMergeType" : {
+         "MosaicSequence" : [ 1, 101 ],
+         "MosaicType" : 1
+      }
+   },
+   "RadarSpeedSetTime" : 0.0,
+   "RadarSpeedSourceTime" : 0.0,
+   "RedLightUTC" : null,
+   "RedLightUTCMS" : null,
+   "RuleId" : 10,
+   "Sequence" : 1,
+   "Source" : 43,
+   "Speed" : 5,
+   "SpeedTypeInternal" : 0,
+   "TrafficCar" : {
+      "CountInGroup" : 1,
+      "DeviceAddress" : null,
+      "Direction" : 0,
+      "DrivingDirection" : [ "Approach", "", "" ],
+      "Event" : "TrafficDriverCalling",
+      "GroupID" : 1231008003,
+      "IndexInGroup" : 1,
+      "Lane" : 1,
+      "LaneDescription" : "1234",
+      "LowerSpeedLimit" : 10,
+      "MachineGroup" : null,
+      "MachineName" : "ITC952-RF2D-IR",
+      "OverSpeedMargin" : 0,
+      "PhysicalLane" : 0,
+      "RoadwayNo" : "",
+      "RouteNo" : "",
+      "Speed" : 5,
+      "UnderSpeedMargin" : 0,
+      "UpperSpeedLimit" : 70,
+      "VehicleColor" : "Black",
+      "VehicleSign" : "Unknown",
+      "VehicleSize" : "Light-duty",
+      "ViolationCode" : "",
+      "ViolationDesc" : "DriverCalling"
+   },
+   "UTC" : 1790007428,
+   "UTCMS" : 552,
+   "Vehicle" : {
+      "Action" : "Appear",
+      "BoundingBox" : [ 2240, 2752, 3808, 8144 ],
+      "BrandYear" : 0,
+      "CarLogoIndex" : 0,
+      "CarSeriesIndex" : 0,
+      "Category" : "SaloonCar",
+      "Center" : [ 3024, 5448 ],
+      "Confidence" : 252,
+      "DriverFace" : [
+         [ 0, 0, 0, 0 ],
+         [ 0, 0, 0, 0 ]
+      ],
+      "FrameSequence" : 1284312,
+      "MainColor" : [ 0, 0, 0, 0 ],
+      "MainSeat" : {
+         "DriverCalling" : "unknow",
+         "DriverSmoking" : "unknow",
+         "SafeBelt" : "unknow",
+         "SunShade" : "unknow"
+      },
+      "ObjectID" : 37663,
+      "ObjectType" : "Vehicle",
+      "Plate" : {
+         "BoundingBox" : [ 0, 0, 0, 0 ],
+         "FrameSequence" : 1284312,
+         "MainColor" : [ 0, 0, 0, 0 ],
+         "ObjectID" : 37663,
+         "ObjectType" : "Plate",
+         "PlateCentroid" : [ 0, 0 ],
+         "PlateType" : 0,
+         "Text" : ""
+      },
+      "RelativeID" : 0,
+      "ShotFrame" : true,
+      "SlaveSeat" : {
+         "DriverCalling" : "unknow",
+         "DriverSmoking" : "unknow",
+         "SafeBelt" : "unknow",
+         "SunShade" : "unknow"
+      },
+      "Source" : 0.0,
+      "Speed" : 5,
+      "SpeedTypeInternal" : 0,
+      "SubBrand" : 0,
+      "Text" : "Unknown"
+   },
+   "ViolationSnapSource" : 3
+}
+
+
+--myboundary
+Content-Type: text/plain
+Content-Length:3590
+
+Code=TrafficUnderSpeed;action=Pulse;index=0;data={
+   "Action" : "Pulse",
+   "Class" : "",
+   "Code" : "TrafficUnderSpeed",
+   "CostTime" : {
+      "3_AddSnapInfoTime1" : 51407020304.0
+   },
+   "CountInGroup" : 2,
+   "Direction" : "Obverse",
+   "EventSeq" : 22,
+   "EventValid" : true,
+   "Extension" : {
+      "EventLongID" : "0220260921161708081899900000"
+   },
+   "FrameSequence" : 1284387,
+   "GroupID" : 1231008003,
+   "InYellowLine" : false,
+   "IndexInGroup" : 1,
+   "Lane" : 0,
+   "LightColor" : null,
+   "Mark" : 126,
+   "Name" : "LaneLine1",
+   "NotSend" : true,
+   "OSDFormat" : [ 4096, 2160 ],
+   "Object" : {
+      "Action" : "Appear",
+      "BoundingBox" : [ 0, 0, 0, 0 ],
+      "Center" : [ 0, 0 ],
+      "Confidence" : 0,
+      "FrameSequence" : 0,
+      "ObjectID" : 0,
+      "ObjectType" : "Unknown",
+      "RelativeID" : 0,
+      "ShotFrame" : false,
+      "Source" : 0.0,
+      "Speed" : 0,
+      "SpeedTypeInternal" : 0
+   },
+   "OverSpeedMargin" : 0,
+   "PTS" : 43000779720.0,
+   "Picture" : {
+      "CarID" : 2292,
+      "EncodeTimes" : 1,
+      "MergeSequence" : 15505,
+      "NormalSequence" : 15506,
+      "PicMergeType" : {
+         "MosaicSequence" : [ 1, 2 ],
+         "MosaicType" : 2
+      }
+   },
+   "RadarSpeedSetTime" : 0.0,
+   "RadarSpeedSourceTime" : 0.0,
+   "RedLightUTC" : null,
+   "RedLightUTCMS" : null,
+   "RuleId" : 7,
+   "Sequence" : 2,
+   "Source" : 43,
+   "Speed" : 5,
+   "SpeedLimit" : [ 10, 70 ],
+   "SpeedTypeInternal" : 0,
+   "TrafficCar" : {
+      "CountInGroup" : 2,
+      "DeviceAddress" : null,
+      "Direction" : 0,
+      "DrivingDirection" : [ "Approach", "", "" ],
+      "Event" : "TrafficUnderSpeed",
+      "GroupID" : 1231008003,
+      "IndexInGroup" : 1,
+      "Lane" : 1,
+      "LaneDescription" : "1234",
+      "LowerSpeedLimit" : 10,
+      "MachineGroup" : null,
+      "MachineName" : "ITC952-RF2D-IR",
+      "OverSpeedMargin" : 0,
+      "PhysicalLane" : 0,
+      "RoadwayNo" : "",
+      "RouteNo" : "",
+      "Speed" : 5,
+      "UnderSpeedMargin" : 0,
+      "UpperSpeedLimit" : 70,
+      "VehicleColor" : "Black",
+      "VehicleSign" : "Unknown",
+      "VehicleSize" : "Light-duty",
+      "ViolationCode" : "4306",
+      "ViolationDesc" : "UnderSpeed"
+   },
+   "UTC" : 1790007428,
+   "UTCMS" : 552,
+   "UnderSpeedMargin" : 0,
+   "Vehicle" : {
+      "Action" : "Appear",
+      "BoundingBox" : [ 2240, 2752, 3808, 8144 ],
+      "BrandYear" : 0,
+      "CarLogoIndex" : 0,
+      "CarSeriesIndex" : 0,
+      "Category" : "SaloonCar",
+      "Center" : [ 3024, 5448 ],
+      "Confidence" : 252,
+      "DriverFace" : [
+         [ 0, 0, 0, 0 ],
+         [ 0, 0, 0, 0 ]
+      ],
+      "FrameSequence" : 1284312,
+      "MainColor" : [ 0, 0, 0, 0 ],
+      "MainSeat" : {
+         "DriverCalling" : "unknow",
+         "DriverSmoking" : "unknow",
+         "SafeBelt" : "unknow",
+         "SunShade" : "unknow"
+      },
+      "ObjectID" : 37663,
+      "ObjectType" : "Vehicle",
+      "Plate" : {
+         "BoundingBox" : [ 0, 0, 0, 0 ],
+         "FrameSequence" : 1284312,
+         "MainColor" : [ 0, 0, 0, 0 ],
+         "ObjectID" : 37663,
+         "ObjectType" : "Plate",
+         "PlateCentroid" : [ 0, 0 ],
+         "PlateType" : 0,
+         "Text" : ""
+      },
+      "RelativeID" : 0,
+      "ShotFrame" : true,
+      "SlaveSeat" : {
+         "DriverCalling" : "unknow",
+         "DriverSmoking" : "unknow",
+         "SafeBelt" : "unknow",
+         "SunShade" : "unknow"
+      },
+      "Source" : 0.0,
+      "Speed" : 5,
+      "SpeedTypeInternal" : 0,
+      "SubBrand" : 0,
+      "Text" : "Unknown"
+   },
+   "ViolationSnapSource" : 3
+}
+
+
+--myboundary
+Content-Type: text/plain
+Content-Length:3590
+
+Code=TrafficUnderSpeed;action=Pulse;index=0;data={
+   "Action" : "Pulse",
+   "Class" : "",
+   "Code" : "TrafficUnderSpeed",
+   "CostTime" : {
+      "3_AddSnapInfoTime1" : 51407235541.0
+   },
+   "CountInGroup" : 2,
+   "Direction" : "Obverse",
+   "EventSeq" : 23,
+   "EventValid" : true,
+   "Extension" : {
+      "EventLongID" : "0220260921161708081929900000"
+   },
+   "FrameSequence" : 1284394,
+   "GroupID" : 1231008003,
+   "InYellowLine" : false,
+   "IndexInGroup" : 2,
+   "Lane" : 0,
+   "LightColor" : null,
+   "Mark" : 127,
+   "Name" : "LaneLine1",
+   "NotSend" : true,
+   "OSDFormat" : [ 4096, 2160 ],
+   "Object" : {
+      "Action" : "Appear",
+      "BoundingBox" : [ 0, 0, 0, 0 ],
+      "Center" : [ 0, 0 ],
+      "Confidence" : 0,
+      "FrameSequence" : 0,
+      "ObjectID" : 0,
+      "ObjectType" : "Unknown",
+      "RelativeID" : 0,
+      "ShotFrame" : false,
+      "Source" : 0.0,
+      "Speed" : 0,
+      "SpeedTypeInternal" : 0
+   },
+   "OverSpeedMargin" : 0,
+   "PTS" : 43000780000.0,
+   "Picture" : {
+      "CarID" : 2292,
+      "EncodeTimes" : 0,
+      "MergeSequence" : 15505,
+      "NormalSequence" : 15511,
+      "PicMergeType" : {
+         "MosaicSequence" : [ 1, 2 ],
+         "MosaicType" : 2
+      }
+   },
+   "RadarSpeedSetTime" : 0.0,
+   "RadarSpeedSourceTime" : 0.0,
+   "RedLightUTC" : null,
+   "RedLightUTCMS" : null,
+   "RuleId" : 7,
+   "Sequence" : 1,
+   "Source" : 37,
+   "Speed" : 5,
+   "SpeedLimit" : [ 10, 70 ],
+   "SpeedTypeInternal" : 0,
+   "TrafficCar" : {
+      "CountInGroup" : 2,
+      "DeviceAddress" : null,
+      "Direction" : 0,
+      "DrivingDirection" : [ "Approach", "", "" ],
+      "Event" : "TrafficUnderSpeed",
+      "GroupID" : 1231008003,
+      "IndexInGroup" : 2,
+      "Lane" : 1,
+      "LaneDescription" : "1234",
+      "LowerSpeedLimit" : 10,
+      "MachineGroup" : null,
+      "MachineName" : "ITC952-RF2D-IR",
+      "OverSpeedMargin" : 0,
+      "PhysicalLane" : 0,
+      "RoadwayNo" : "",
+      "RouteNo" : "",
+      "Speed" : 5,
+      "UnderSpeedMargin" : 0,
+      "UpperSpeedLimit" : 70,
+      "VehicleColor" : "Black",
+      "VehicleSign" : "Unknown",
+      "VehicleSize" : "Light-duty",
+      "ViolationCode" : "4306",
+      "ViolationDesc" : "UnderSpeed"
+   },
+   "UTC" : 1790007428,
+   "UTCMS" : 832,
+   "UnderSpeedMargin" : 0,
+   "Vehicle" : {
+      "Action" : "Appear",
+      "BoundingBox" : [ 968, 4280, 3944, 8184 ],
+      "BrandYear" : 0,
+      "CarLogoIndex" : 0,
+      "CarSeriesIndex" : 0,
+      "Category" : "SaloonCar",
+      "Center" : [ 2456, 6232 ],
+      "Confidence" : 100,
+      "DriverFace" : [
+         [ 0, 0, 0, 0 ],
+         [ 0, 0, 0, 0 ]
+      ],
+      "FrameSequence" : 1284312,
+      "MainColor" : [ 0, 0, 0, 0 ],
+      "MainSeat" : {
+         "DriverCalling" : "unknow",
+         "DriverSmoking" : "unknow",
+         "SafeBelt" : "unknow",
+         "SunShade" : "unknow"
+      },
+      "ObjectID" : 37663,
+      "ObjectType" : "Vehicle",
+      "Plate" : {
+         "BoundingBox" : [ 0, 0, 0, 0 ],
+         "FrameSequence" : 1284312,
+         "MainColor" : [ 0, 0, 0, 0 ],
+         "ObjectID" : 37663,
+         "ObjectType" : "Plate",
+         "PlateCentroid" : [ 0, 0 ],
+         "PlateType" : 0,
+         "Text" : ""
+      },
+      "RelativeID" : 0,
+      "ShotFrame" : false,
+      "SlaveSeat" : {
+         "DriverCalling" : "unknow",
+         "DriverSmoking" : "unknow",
+         "SafeBelt" : "unknow",
+         "SunShade" : "unknow"
+      },
+      "Source" : 0.0,
+      "Speed" : 5,
+      "SpeedTypeInternal" : 0,
+      "SubBrand" : 0,
+      "Text" : "Unknown"
+   },
+   "ViolationSnapSource" : 3
+}
+
+
+--myboundary
+Content-Type: text/plain
+Content-Length:3869
+
+Code=TrafficUnderSpeed;action=Pulse;index=0;data={
+   "Action" : "Pulse",
+   "Class" : "",
+   "Code" : "TrafficUnderSpeed",
+   "CostTime" : {
+      "3_AddSnapInfoTime1" : 51407020304.0
+   },
+   "CountInGroup" : 2,
+   "Direction" : "Obverse",
+   "EncodeSequence" : 15506,
+   "EncodeTimes" : 1,
+   "EventSeq" : 22,
+   "EventValid" : true,
+   "Extension" : {
+      "EventLongID" : "0220260921161708081899900000"
+   },
+   "FrameSequence" : 1284387,
+   "GroupID" : 1231008003,
+   "InYellowLine" : false,
+   "IndexInGroup" : 1,
+   "Lane" : 0,
+   "LightColor" : null,
+   "Mark" : 126,
+   "Name" : "LaneLine1",
+   "NoOSD" : null,
+   "NotSend" : true,
+   "OSDFormat" : [ 4096, 2160 ],
+   "Object" : {
+      "Action" : "Appear",
+      "BoundingBox" : [ 0, 0, 0, 0 ],
+      "Category" : null,
+      "Center" : [ 0, 0 ],
+      "Confidence" : 0,
+      "DriverFace" : null,
+      "FrameSequence" : 0,
+      "MainColor" : null,
+      "MainSeat" : null,
+      "ObjectID" : 0,
+      "ObjectType" : "Unknown",
+      "RelativeID" : 0,
+      "ShotFrame" : false,
+      "SlaveSeat" : null,
+      "Source" : 0.0,
+      "Speed" : 0,
+      "SpeedTypeInternal" : 0,
+      "Text" : null
+   },
+   "OverSpeedMargin" : 0,
+   "PTS" : 43000779720.0,
+   "PicType" : 0,
+   "Picture" : {
+      "CarID" : 2292,
+      "EncodeTimes" : 1,
+      "MergeSequence" : 15505,
+      "NormalSequence" : 15506,
+      "PicMergeType" : {
+         "MosaicSequence" : [ 1, 2 ],
+         "MosaicType" : 2
+      }
+   },
+   "RadarSpeedSetTime" : 0.0,
+   "RadarSpeedSourceTime" : 0.0,
+   "RedLightUTC" : null,
+   "RedLightUTCMS" : null,
+   "RuleId" : 7,
+   "Sequence" : 2,
+   "Source" : 43,
+   "Speed" : 5,
+   "SpeedLimit" : [ 10, 70 ],
+   "SpeedTypeInternal" : 0,
+   "TrafficCar" : {
+      "CountInGroup" : 2,
+      "DeviceAddress" : null,
+      "Direction" : 0,
+      "DrivingDirection" : [ "Approach", "", "" ],
+      "Event" : "TrafficUnderSpeed",
+      "GroupID" : 1231008003,
+      "IndexInGroup" : 1,
+      "Lane" : 1,
+      "LaneDescription" : "1234",
+      "LowerSpeedLimit" : 10,
+      "MachineGroup" : null,
+      "MachineName" : "ITC952-RF2D-IR",
+      "OverSpeedMargin" : 0,
+      "PhysicalLane" : 0,
+      "RoadwayNo" : "",
+      "RouteNo" : "",
+      "Speed" : 5,
+      "UnderSpeedMargin" : 0,
+      "UpperSpeedLimit" : 70,
+      "VehicleColor" : "Black",
+      "VehicleSign" : "Unknown",
+      "VehicleSize" : "Light-duty",
+      "ViolationCode" : "4306",
+      "ViolationDesc" : "UnderSpeed"
+   },
+   "UTC" : 1790007428,
+   "UTCMS" : 552,
+   "UnderSpeedMargin" : 0,
+   "Vehicle" : {
+      "Action" : "Appear",
+      "BoundingBox" : [ 2240, 2752, 3808, 8144 ],
+      "BrandYear" : 0,
+      "CarLogoIndex" : 0,
+      "CarSeriesIndex" : 0,
+      "Category" : "SaloonCar",
+      "Center" : [ 3024, 5448 ],
+      "Confidence" : 252,
+      "DriverFace" : [
+         [ 0, 0, 0, 0 ],
+         [ 0, 0, 0, 0 ]
+      ],
+      "FrameSequence" : 1284312,
+      "MainColor" : [ 255, 255, 0, 0 ],
+      "MainSeat" : {
+         "DriverCalling" : "unknow",
+         "DriverSmoking" : "unknow",
+         "SafeBelt" : "unknow",
+         "SunShade" : "unknow"
+      },
+      "ObjectID" : 37663,
+      "ObjectType" : "Vehicle",
+      "OverseaCategory" : "Unknown",
+      "Plate" : {
+         "BoundingBox" : [ 0, 0, 0, 0 ],
+         "FrameSequence" : 1284312,
+         "MainColor" : [ 0, 0, 0, 0 ],
+         "ObjectID" : 37663,
+         "ObjectType" : "Plate",
+         "PlateCentroid" : [ 0, 0 ],
+         "PlateType" : 0,
+         "Text" : ""
+      },
+      "RelativeID" : 0,
+      "ShotFrame" : true,
+      "SlaveSeat" : {
+         "DriverCalling" : "unknow",
+         "DriverSmoking" : "unknow",
+         "SafeBelt" : "unknow",
+         "SunShade" : "unknow"
+      },
+      "Source" : 0.0,
+      "Speed" : 5,
+      "SpeedTypeInternal" : 0,
+      "SubBrand" : 0,
+      "Text" : "Unknown"
+   },
+   "ViolationSnapSource" : 3
+}
+
+
+--myboundary
+Content-Type: text/plain
+Content-Length:3994
+
+Code=TrafficUnderSpeed;action=Pulse;index=0;data={
+   "Action" : "Pulse",
+   "Class" : "",
+   "Code" : "TrafficUnderSpeed",
+   "CostTime" : {
+      "3_AddSnapInfoTime1" : 51407020304.0,
+      "5_BeforeGetOsd" : 51407783810.0,
+      "6_AfterGetOsd" : 51407790367.0,
+      "7_AfterGetOsdLattice" : 51407843965.0
+   },
+   "CountInGroup" : 2,
+   "Direction" : "Obverse",
+   "EncodeSequence" : 15505,
+   "EncodeTimes" : 0,
+   "EventSeq" : 22,
+   "EventValid" : true,
+   "Extension" : {
+      "EventLongID" : "0220260921161708081899900000"
+   },
+   "FrameSequence" : 1284387,
+   "GroupID" : 1231008003,
+   "InYellowLine" : false,
+   "IndexInGroup" : 1,
+   "Lane" : 0,
+   "LightColor" : null,
+   "Mark" : 126,
+   "Name" : "LaneLine1",
+   "NoOSD" : null,
+   "NotSend" : true,
+   "OSDFormat" : [ 2048, 2224 ],
+   "Object" : {
+      "Action" : "Appear",
+      "BoundingBox" : [ 0, 0, 0, 0 ],
+      "Category" : null,
+      "Center" : [ 0, 0 ],
+      "Confidence" : 0,
+      "DriverFace" : null,
+      "FrameSequence" : 0,
+      "MainColor" : null,
+      "MainSeat" : null,
+      "ObjectID" : 0,
+      "ObjectType" : "Unknown",
+      "RelativeID" : 0,
+      "ShotFrame" : false,
+      "SlaveSeat" : null,
+      "Source" : 0.0,
+      "Speed" : 0,
+      "SpeedTypeInternal" : 0,
+      "Text" : null
+   },
+   "OverSpeedMargin" : 0,
+   "PTS" : 43000779720.0,
+   "PicType" : 1,
+   "Picture" : {
+      "CarID" : 2292,
+      "EncodeTimes" : 1,
+      "MergeSequence" : 15505,
+      "NormalSequence" : 15506,
+      "PicMergeType" : {
+         "MosaicSequence" : [ 1, 2 ],
+         "MosaicType" : 2
+      }
+   },
+   "RadarSpeedSetTime" : 0.0,
+   "RadarSpeedSourceTime" : 0.0,
+   "RedLightUTC" : null,
+   "RedLightUTCMS" : null,
+   "RuleId" : 7,
+   "Sequence" : 2,
+   "Source" : 43,
+   "Speed" : 5,
+   "SpeedLimit" : [ 10, 70 ],
+   "SpeedTypeInternal" : 0,
+   "TrafficCar" : {
+      "CountInGroup" : 2,
+      "DeviceAddress" : null,
+      "Direction" : 0,
+      "DrivingDirection" : [ "Approach", "", "" ],
+      "Event" : "TrafficUnderSpeed",
+      "GroupID" : 1231008003,
+      "IndexInGroup" : 1,
+      "Lane" : 1,
+      "LaneDescription" : "1234",
+      "LowerSpeedLimit" : 10,
+      "MachineGroup" : null,
+      "MachineName" : "ITC952-RF2D-IR",
+      "OverSpeedMargin" : 0,
+      "PhysicalLane" : 0,
+      "RoadwayNo" : "",
+      "RouteNo" : "",
+      "Speed" : 5,
+      "UnderSpeedMargin" : 0,
+      "UpperSpeedLimit" : 70,
+      "VehicleColor" : "Black",
+      "VehicleSign" : "Unknown",
+      "VehicleSize" : "Light-duty",
+      "ViolationCode" : "4306",
+      "ViolationDesc" : "UnderSpeed"
+   },
+   "UTC" : 1790007428,
+   "UTCMS" : 552,
+   "UnderSpeedMargin" : 0,
+   "Vehicle" : {
+      "Action" : "Appear",
+      "BoundingBox" : [ 2240, 2752, 3808, 8144 ],
+      "BrandYear" : 0,
+      "CarLogoIndex" : 0,
+      "CarSeriesIndex" : 0,
+      "Category" : "SaloonCar",
+      "Center" : [ 3024, 5448 ],
+      "Confidence" : 252,
+      "DriverFace" : [
+         [ 0, 0, 0, 0 ],
+         [ 0, 0, 0, 0 ]
+      ],
+      "FrameSequence" : 1284312,
+      "MainColor" : [ 255, 255, 0, 0 ],
+      "MainSeat" : {
+         "DriverCalling" : "unknow",
+         "DriverSmoking" : "unknow",
+         "SafeBelt" : "unknow",
+         "SunShade" : "unknow"
+      },
+      "ObjectID" : 37663,
+      "ObjectType" : "Vehicle",
+      "OverseaCategory" : "Unknown",
+      "Plate" : {
+         "BoundingBox" : [ 0, 0, 0, 0 ],
+         "FrameSequence" : 1284312,
+         "MainColor" : [ 0, 0, 0, 0 ],
+         "ObjectID" : 37663,
+         "ObjectType" : "Plate",
+         "PlateCentroid" : [ 0, 0 ],
+         "PlateType" : 0,
+         "Text" : ""
+      },
+      "RelativeID" : 0,
+      "ShotFrame" : true,
+      "SlaveSeat" : {
+         "DriverCalling" : "unknow",
+         "DriverSmoking" : "unknow",
+         "SafeBelt" : "unknow",
+         "SunShade" : "unknow"
+      },
+      "Source" : 0.0,
+      "Speed" : 5,
+      "SpeedTypeInternal" : 0,
+      "SubBrand" : 0,
+      "Text" : "Unknown"
+   },
+   "ViolationSnapSource" : 3
+}
+
+
+--myboundary
+Content-Type: text/plain
+Content-Length:3891
+
+Code=TrafficUnderSpeed;action=Pulse;index=0;data={
+   "Action" : "Pulse",
+   "Class" : "",
+   "Code" : "TrafficUnderSpeed",
+   "CostTime" : {
+      "3_AddSnapInfoTime1" : 51407235541.0
+   },
+   "CountInGroup" : 2,
+   "Direction" : "Obverse",
+   "EncodeSequence" : 15511,
+   "EncodeTimes" : 0,
+   "EventSeq" : 23,
+   "EventValid" : true,
+   "Extension" : {
+      "EventLongID" : "0220260921161708081929900000"
+   },
+   "FrameSequence" : 1284394,
+   "GroupID" : 1231008003,
+   "InYellowLine" : false,
+   "IndexInGroup" : 2,
+   "Lane" : 0,
+   "LightColor" : null,
+   "Mark" : 127,
+   "Name" : "LaneLine1",
+   "NoOSD" : null,
+   "NotSend" : true,
+   "OSDFormat" : [ 4096, 2160 ],
+   "Object" : {
+      "Action" : "Appear",
+      "BoundingBox" : [ 0, 0, 0, 0 ],
+      "Category" : null,
+      "Center" : [ 0, 0 ],
+      "Confidence" : 0,
+      "DriverFace" : null,
+      "FrameSequence" : 0,
+      "MainColor" : null,
+      "MainSeat" : null,
+      "ObjectID" : 0,
+      "ObjectType" : "Unknown",
+      "RelativeID" : 0,
+      "ShotFrame" : false,
+      "SlaveSeat" : null,
+      "Source" : 0.0,
+      "Speed" : 0,
+      "SpeedTypeInternal" : 0,
+      "Text" : null
+   },
+   "OverSpeedMargin" : 0,
+   "PTS" : 43000780000.0,
+   "PicType" : 0,
+   "Picture" : {
+      "CarID" : 2292,
+      "EncodeTimes" : 0,
+      "MergeSequence" : 15505,
+      "NormalSequence" : 15511,
+      "PicMergeType" : {
+         "MosaicSequence" : [ 1, 2 ],
+         "MosaicType" : 2
+      }
+   },
+   "RadarSpeedSetTime" : 0.0,
+   "RadarSpeedSourceTime" : 0.0,
+   "RedLightUTC" : null,
+   "RedLightUTCMS" : null,
+   "RuleId" : 7,
+   "Sequence" : 1,
+   "Source" : 37,
+   "Speed" : 5,
+   "SpeedLimit" : [ 10, 70 ],
+   "SpeedTypeInternal" : 0,
+   "TrafficCar" : {
+      "CountInGroup" : 2,
+      "DeviceAddress" : null,
+      "Direction" : 0,
+      "DrivingDirection" : [ "Approach", "", "" ],
+      "Event" : "TrafficUnderSpeed",
+      "GroupID" : 1231008003,
+      "IndexInGroup" : 2,
+      "Lane" : 1,
+      "LaneDescription" : "1234",
+      "LowerSpeedLimit" : 10,
+      "MachineGroup" : null,
+      "MachineName" : "ITC952-RF2D-IR",
+      "OverSpeedMargin" : 0,
+      "PhysicalLane" : 0,
+      "RoadwayNo" : "",
+      "RouteNo" : "",
+      "Speed" : 5,
+      "UnderSpeedMargin" : 0,
+      "UpperSpeedLimit" : 70,
+      "VehicleColor" : "Black",
+      "VehicleSign" : "Unknown",
+      "VehicleSize" : "Light-duty",
+      "ViolationCode" : "4306",
+      "ViolationDesc" : "UnderSpeed"
+   },
+   "UTC" : 1790007428,
+   "UTCMS" : 832,
+   "UnderSpeedMargin" : 0,
+   "Vehicle" : {
+      "Action" : "Appear",
+      "BoundingBox" : [ 968, 4280, 3944, 8184 ],
+      "BrandYear" : 0,
+      "CarLogoIndex" : 0,
+      "CarSeriesIndex" : 0,
+      "Category" : "SaloonCar",
+      "Center" : [ 2456, 6232 ],
+      "Confidence" : 100,
+      "DriverFace" : [
+         [ 0, 0, 0, 0 ],
+         [ 0, 0, 0, 0 ]
+      ],
+      "Extra" : null,
+      "FrameSequence" : 1284312,
+      "MainColor" : [ 255, 255, 0, 0 ],
+      "MainSeat" : {
+         "DriverCalling" : "unknow",
+         "DriverSmoking" : "unknow",
+         "SafeBelt" : "unknow",
+         "SunShade" : "unknow"
+      },
+      "ObjectID" : 37663,
+      "ObjectType" : "Vehicle",
+      "OverseaCategory" : "Unknown",
+      "Plate" : {
+         "BoundingBox" : [ 0, 0, 0, 0 ],
+         "FrameSequence" : 1284312,
+         "MainColor" : [ 0, 0, 0, 0 ],
+         "ObjectID" : 37663,
+         "ObjectType" : "Plate",
+         "PlateCentroid" : [ 0, 0 ],
+         "PlateType" : 0,
+         "Text" : ""
+      },
+      "RelativeID" : 0,
+      "ShotFrame" : false,
+      "SlaveSeat" : {
+         "DriverCalling" : "unknow",
+         "DriverSmoking" : "unknow",
+         "SafeBelt" : "unknow",
+         "SunShade" : "unknow"
+      },
+      "Source" : 0.0,
+      "Speed" : 5,
+      "SpeedTypeInternal" : 0,
+      "SubBrand" : 0,
+      "Text" : "Unknown"
+   },
+   "ViolationSnapSource" : 3
+}
+
+
+--myboundary
+Content-Type: text/plain
+Content-Length:3790
+
+Code=TrafficJunction;action=Pulse;index=0;data={
+   "Action" : "Pulse",
+   "Class" : "",
+   "Code" : "TrafficJunction",
+   "CostTime" : {
+      "3_AddSnapInfoTime1" : 51407020304.0
+   },
+   "CountInGroup" : 1,
+   "Direction" : "Obverse",
+   "EncodeSequence" : 15504,
+   "EncodeTimes" : 1,
+   "EventSeq" : 11,
+   "EventValid" : true,
+   "Extension" : {
+      "EventLongID" : "0220260921161708081889900000"
+   },
+   "FrameSequence" : 1284387,
+   "GroupID" : 1231008003,
+   "InYellowLine" : false,
+   "IndexInGroup" : 1,
+   "Lane" : 0,
+   "LightColor" : null,
+   "Mark" : 126,
+   "Name" : "LaneLine1",
+   "NoOSD" : null,
+   "NotSend" : true,
+   "OSDFormat" : [ 4096, 2160 ],
+   "Object" : {
+      "Action" : "Appear",
+      "BoundingBox" : [ 0, 0, 0, 0 ],
+      "Category" : null,
+      "Center" : [ 0, 0 ],
+      "Confidence" : 0,
+      "DriverFace" : null,
+      "FrameSequence" 

@@ -1,0 +1,17 @@
+{
+  "last": "172.17.83.60",
+  "cameras": {
+    "172.17.83.60": {
+      "user": "admin",
+      "password": "admin123",
+      "seen": "2026-10-01 12:22",
+      "label": "work"
+    },
+    "10.10.5.15": {
+      "user": "admin",
+      "password": "admin123",
+      "seen": "2026-09-30 16:24",
+      "label": "newfw"
+    }
+  }
+}
